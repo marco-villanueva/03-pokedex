@@ -21,6 +21,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Reconstruir la base de datos, este endpoint seed borrará todos los pokemon y volverá a insertar 650.
+```
+http://localhost:3000/api/v2/seed
+```
+
 ## Stack
 * MongoDB
 * Nest JS
