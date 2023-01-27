@@ -21,7 +21,16 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reconstruir la base de datos, este endpoint seed borrará todos los pokemon y volverá a insertar 650.
+5. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+6. Llenar las variables de entorno
+
+7. para levantar el proyecto ejecutamos el comando:
+```
+yarn start:dev
+```
+
+8. Reconstruir la base de datos, este endpoint seed borrará todos los pokemon y volverá a insertar 650.
 ```
 http://localhost:3000/api/v2/seed
 ```
